@@ -10,6 +10,13 @@ public class defaultCountingOutRhymer {
     private static final int CAPACITY = MAX_SIZE -1;
     private final int[] numbers = new int[MAX_SIZE];
 
+    public void setTotal(int total) {
+        this.total = total;
+    }
+    public int getTotal() {
+        return total;
+    }
+
     private int total = EMPTY_RHYMER_INDICATOR;
 
     public void countIn(int in) {
